@@ -40,3 +40,5 @@ If your form and field both are named, you can access the validation result to s
   <div ng-show="myForm.myConfirmField.$error.match">Fields do not match!</div>
 </form>
 ```
+
+Based on [angular-input-match](https://github.com/TheSharpieOne/angular-input-match)
