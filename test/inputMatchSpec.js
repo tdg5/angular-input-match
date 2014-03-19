@@ -31,11 +31,11 @@ describe('Directives: inputMatch', function() {
           '<match></match>'
         ];
 
-        for(var i = 0; i < naTemplates.length; i++) {
-          compiled = $compile(naTemplates[i])($scope);
-          $scope.$apply();
-          expect(spy).not.toHaveBeenCalled();
-        }
+      for(var i = 0; i < naTemplates.length; i++) {
+        compiled = $compile(naTemplates[i])($scope);
+        $scope.$apply();
+        expect(spy).not.toHaveBeenCalled();
+      }
     });
 
   });
