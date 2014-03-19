@@ -1,11 +1,9 @@
 # angular-input-match
 [![Build Status](https://travis-ci.org/interval-braining/angular-input-match.png?branch=master)](https://travis-ci.org/interval-braining/angular-input-match)
 
-Checks if one input matches another.  Useful for confirming passwords, emails, or anything.
+Checks if one input matches another. Useful for confirming passwords, emails, or anything.
 
-The "data-match" attribute should be set equal to the ng-model value of the field to match.
-
-**Demo:** http://jsfiddle.net/TheSharpieOne/Wnv8u/
+The `data` or `data-match` attribute should be set equal to the ng-model value of the field to match against.
 
 ## Usage
 
