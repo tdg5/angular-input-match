@@ -1,5 +1,5 @@
-angular-input-match
-===================
+# angular-input-match
+[![Build Status](https://travis-ci.org/interval-braining/angular-input-match.png?branch=master)](https://travis-ci.org/interval-braining/angular-input-match)
 
 Checks if one input matches another.  Useful for confirming passwords, emails, or anything.
 
@@ -7,8 +7,7 @@ The "data-match" attribute should be set equal to the ng-model value of the fiel
 
 **Demo:** http://jsfiddle.net/TheSharpieOne/Wnv8u/
 
-Usage
------
+## Usage
 
 **Simple Property Example using "data" prefix:**
 ```html
