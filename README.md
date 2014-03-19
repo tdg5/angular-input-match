@@ -3,7 +3,7 @@
 
 Checks if one input matches another. Useful for confirming passwords, emails, or anything.
 
-The `data` or `data-match` attribute should be set equal to the ng-model value of the field to match against.
+The `match` or `data-match` attribute should be set equal to the ng-model value of the field to match against.
 
 ## Usage
 
