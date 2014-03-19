@@ -4,6 +4,8 @@
   inputMatch.directive('match', function () {
 
     function link(scope, elem, attrs, ctrl) {
+      if(!ctrl) { return; }
+
       scope.$watch(
         function() {
           return (ctrl.$pristine && angular.isUndefined(ctrl.$modelValue)) || scope.match === ctrl.$modelValue;

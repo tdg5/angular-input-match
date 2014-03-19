@@ -9,7 +9,7 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
 
     // list of files / patterns to load in the browser
-    files: [].concat(files.angular, files.testUtils, files.build, files.test),
+    files: [].concat(files.angular, files.testUtils, files.src, files.test),
 
     // list of files / patterns to exclude
     exclude: [],
