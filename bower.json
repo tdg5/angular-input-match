@@ -1,7 +1,10 @@
 {
   "name": "angular-input-match",
   "version": "0.0.1",
-  "main": "./release/angular-input-match.js",
+  "main": [
+    "./dist/angular-input-match.js",
+    "./dist/angular-input-match.min.js"
+  ],
   "dependencies": {
     "angular": ">= 1.0.8"
   },
