@@ -1,6 +1,5 @@
 'use strict';
-/*global module:false*/
-/*global require:false*/
+/* global module, require */
 
 module.exports = function (grunt) {
 
@@ -10,7 +9,6 @@ module.exports = function (grunt) {
   grunt.initConfig({
     builddir: 'build',
     buildtag: '-dev-' + grunt.template.today('yyyy-mm-dd'),
-    pkg: grunt.file.readJSON('package.json'),
     clean: [ '<%= builddir %>' ],
     concat: {
       options: {
@@ -98,6 +96,7 @@ module.exports = function (grunt) {
         ' * @license MIT License, http://www.opensource.org/licenses/MIT\n' +
         ' */'
     },
+    pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
         banner: '<%= meta.banner %>\n'
