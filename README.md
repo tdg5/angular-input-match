@@ -1,5 +1,6 @@
 # angular-input-match
 [![Build Status](https://travis-ci.org/interval-braining/angular-input-match.png?branch=master)](https://travis-ci.org/interval-braining/angular-input-match)
+[![Code Climate](https://codeclimate.com/github/interval-braining/angular-input-match.png)](https://codeclimate.com/github/interval-braining/angular-input-match)
 
 Checks if one input matches another. Useful for confirming passwords, emails, or anything.
 
