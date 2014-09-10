@@ -8,7 +8,8 @@ inputMatch.directive('match', function () {
 
     scope.$watch(
       function() {
-        return (ctrl.$pristine && angular.isUndefined(ctrl.$modelValue)) || scope.match === ctrl.$modelValue;
+        var modelValue = ctrl.$modelValue || ctrl.$$invalidModelValue;
+        return (ctrl.$pristine && angular.isUndefined(modelValue)) || scope.match === modelValue;
       },
       function(currentValue) {
         ctrl.$setValidity('match', currentValue);
