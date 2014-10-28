@@ -1,7 +1,7 @@
 'use strict';
 
 var inputMatch = angular.module('directives.inputMatch', []);
-inputMatch.directive('match', function () {
+inputMatch.directive('inputMatch', function () {
 
   function link(scope, elem, attrs, ctrl) {
     if(!ctrl) { return; }
