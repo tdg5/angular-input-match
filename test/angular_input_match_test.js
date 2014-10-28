@@ -3,7 +3,7 @@ describe('Directives: inputMatch', function() {
   var $scope,
     $compile,
     compiled,
-    validTemplate = '<div ng-model="foo" match="fooConfirmation"></div>';
+    validTemplate = '<div ng-model="foo" input-match="fooConfirmation"></div>';
 
 
   beforeEach(module('directives.inputMatch'));
@@ -18,7 +18,7 @@ describe('Directives: inputMatch', function() {
   describe('configuration:', function() {
 
     it('does not throw when no ngModel controller is found', function() {
-      var naTemplate = '<div match="fooConfirmation"></div>';
+      var naTemplate = '<div input-match="fooConfirmation"></div>';
       compiled = $compile(naTemplate)($scope);
       $scope.$apply();
     });
@@ -27,7 +27,7 @@ describe('Directives: inputMatch', function() {
     it('is limited to attribute invocation', function() {
       var spy = spyOn($scope, '$watch'),
         naTemplates = [
-          '<div class="match"></div>',
+          '<div class="input-match"></div>',
           '<match></match>'
         ];
 
