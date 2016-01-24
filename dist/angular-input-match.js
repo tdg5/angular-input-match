@@ -1,8 +1,8 @@
 /**
  * angular-input-match
  * ngModel validation for matching model attributes
- * @version v0.0.1-dev-2014-04-19
- * @link https://github.com/interval-braining/angular-input-match
+ * @version v0.0.3
+ * @link https://github.com/tdg5/angular-input-match
  * @license MIT License, http://www.opensource.org/licenses/MIT
  */
 

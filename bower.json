@@ -1,5 +1,5 @@
 {
-  "authors": ["dev@intervalbraining.com"],
+  "authors": ["dev@tdg5.com"],
   "dependencies": {
     "angular": ">= 1.0.8"
   },
@@ -7,7 +7,7 @@
   "devDependencies": {
     "angular-mocks": ">=1.0.8"
   },
-  "homepage": "https://github.com/interval-braining/angular-input-match",
+  "homepage": "https://github.com/tdg5/angular-input-match",
   "ignore": [
     "**/.*",
     "bower_components",
@@ -32,5 +32,5 @@
     "dist/angular-input-match.js"
   ],
   "name": "angular-input-match",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
